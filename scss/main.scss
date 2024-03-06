@@ -1,0 +1,51 @@
+$color-text-white: #fff;
+$color-bg: #445162;
+//////////////////////////
+html,
+body {
+  height: 100%;
+  font-family: Sans-serif;
+}
+
+.content-wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+	background-color: $color-bg;
+	.__container {
+		max-width: 1280px;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		padding: 20px 0px 10px 0px;
+			.block-hello {
+				color: $color-text-white;
+				.hello {
+					
+					font-size: 40px;
+					padding: 0px 0px 30px 0px;
+				}
+				ul{
+					padding: 0px 10px 0px 0px;
+					li {
+						font-size: 16px;
+						margin: 0px 0px 15px 0px;
+						padding: 0px 0px 0px 20px;
+						background-image: url('img/icons/icon-check.png');
+					}
+				}
+			}
+			.header-img {
+			
+			}
+	}
+}
+
+.content {
+  flex: 1 1 auto;
+}
+
