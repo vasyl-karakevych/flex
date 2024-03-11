@@ -256,8 +256,13 @@ h2 {
   text-transform: uppercase;
   margin: 10px;
   bottom: 10px;
+  border-radius: 5px;
 }
-
+.subscribe-btn:hover {
+	background-color: #fff; 
+	cursor: pointer;
+	box-shadow: 0 0 10px grey;
+}
 footer {
 	margin-top: 50px;
 	padding: 20px;
