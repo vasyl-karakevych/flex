@@ -1,3 +1,8 @@
+:root {
+  --color-grey: #445162;
+  --color-white: #fff;
+}
+
 html,
 body {
   height: 100%;
@@ -89,7 +94,8 @@ header .header-img img {
   .hello {
     font-size: medium;
   }
-  .header-img, .flexbox-img {
+  .header-img,
+  .flexbox-img {
     text-align: center;
     justify-content: space-around;
   }
@@ -156,4 +162,73 @@ header .header-img img {
 .figure-wrap .figure .figure-block-text .figure-text {
   padding: 0px 10px;
   text-align: justify;
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
+
+// section
+
+.section-vertical-blocks {
+}
+h2 {
+  text-align: center;
+  color: #445162;
+  font-size: 2rem;
+}
+
+.columns {
+  display: flex;
+  flex-dicoration: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.section-vertical-blocks > h2 {
+  margin-bottom: 30px;
+}
+.figure-colums {
+  max-width: 300px;
+  /* display: flex;
+  flex-description: column; */
+}
+.__container {
+  justify-content: center;
+}
+.figure-colums-title {
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: var(--color-grey);
+  padding: 15px;
+  color: var(--color-white);
+}
+.figure-colums-subtitle {
+  padding: 20px;
+  background-color: var(--color-white);
+  color: var(--color-grey);
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+  box-sizingL border-box;
+  border: 1px solid var(--color-grey);
+}
+.figure-colums-text {
+  background-color: var(--color-grey);
+  position: relative;
+  padding: 0px 10px 0px 10px;
+  height: 93%;
+}
+.figure-colums-text p {
+  color: var(--color-white);
+  padding: 10px;
+  text-align: justify;
+}
+.figure-colums-text p:last-of-type {
+  margin-bottom: 0px;
+}
+.subscribe-btn {
+  position: absolute;
+  width: 93.5%;
+  height: 50px;
+  bottom: 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+}

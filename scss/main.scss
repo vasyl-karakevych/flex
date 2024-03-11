@@ -2,8 +2,6 @@ $color-text-white: #fff;
 $color-bg: #445162;
 //////////////////////////
 /// 
-
-/// 
 html,
 body {
   height: 100%;
@@ -31,7 +29,6 @@ header {
 				.block-hello {
 					color: $color-text-white;
 				.hello {
-					
 					font-size: 342.857143%; /* 48/14 */
 					padding: 0px 0px 30px 0px;
 				}
@@ -51,7 +48,6 @@ header {
 				img {
 					max-width: 100%;
 					height: auto;
-
 				}
 			}
 }
@@ -69,7 +65,6 @@ header {
 		width: 100%;
 		height: auto;
 		margin-right: 15px;
-
 	}
 	.flexbox-content {
 		padding: 10px 0px 0px 10px;
@@ -82,7 +77,6 @@ header {
 		p {
 			margin: 0px 15px 30px 0px;;
 			text-align: justify;	
-
 		}
 	}
 
@@ -95,13 +89,10 @@ header {
 	}
 	.hello {
 		font-size: medium;
-		// color: red;
 	}
 	.header-img,.flexbox-img{
 		text-align: center;
 		justify-content: space-around;
-		
-		// overflow: hidden;
 	}
 	& img {
 		weight: 100%;
@@ -117,16 +108,12 @@ header {
 		text-align: center;
 		font-size: 187.5%; /* 30/16 */
 	}
-	
-	
 	.flexbox-label {
 		margin: 0px 0px 20px 0px;
 	}
 }
 
 // section Figure
-
-
 .figure-wrap {
 		display: flex;
 		flex-direction: row;
@@ -159,17 +146,55 @@ header {
 			display: flex;
 			flex-direction: column;
 			padding: 0px 0px 20px 0px;
-			.figure-label {
-				text-align: center;
-				color: $color-bg;
-				font-size: 142.857143%; /* 20/14 */
-				margin-bottom: 20px;
-			}
-			.figure-text {
-				padding: 0px 10px;
-				text-align: justify;
-			}
+			
+				.figure-label {
+					text-align: center;
+					color: $color-bg;
+					font-size: 142.857143%; /* 20/14 */
+					margin-bottom: 20px;
+				}
+				.figure-text {
+					padding: 0px 10px;
+					text-align: justify;
+				}
 		}	
 	}				
 }
 					
+
+// section column
+
+
+
+
+// .section-vertical-blocks {
+// 	max-width: 1280px;
+
+// 	.vertical-blocks-label {
+// 		text-align: center;
+// 	}
+// 	.columns{
+// 		display: flex;
+// 		margin: 0 auto;
+// 		flex-direction: row;
+// 		flex-wrap: wrap;
+
+// 		.figure-colums {
+// 			width: 200px;
+// 			.figure-colums-title {
+				
+// 			}
+// 			.figure-colums-subtitle {
+				
+// 			}
+// 			.figure-colums-text {
+// 				.colums-text{
+					
+// 				}
+// 				.subscribe-btn{
+
+// 				}
+// 			}
+// 		}
+// 	}
+// }
